@@ -25,7 +25,7 @@ body{
 }
 
 .main-div {
-    background-image: url("background.jpg");
+    background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
@@ -73,7 +73,7 @@ body{
     overflow: hidden;
 }
 .banner{
-    background-image: url("pricing-menubanner.jpg");
+    background-image: url('images/pricing-menubanner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
@@ -254,6 +254,14 @@ footer{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 1vw;
 }
+
+.medias{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+
+}
 .footer-links{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 1vw;
@@ -277,13 +285,16 @@ footer{
 .fi{
     color: white;
     display: block;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .fi:hover{
     color: aqua;
 }
 
+.insta{
+    padding-bottom: 5px;
+}
 .footer-logo-div{
     display: flex;
     align-items: flex-end;
@@ -352,7 +363,7 @@ footer{
     }
 
     .banner{
-        background-image: url("pricing-menubanner.jpg");
+        background-image: url(images/pricing-menubanner.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         display: flex;
@@ -397,7 +408,7 @@ footer{
     }
 
     .fi{
-        font-size: 2.3vh;
+        font-size: 2.2vh;
     }
     .footer-logo{
         height: 8.5vh;
