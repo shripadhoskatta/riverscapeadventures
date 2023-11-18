@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -57,12 +59,25 @@ body{
     margin-right: 60vw;
     padding-top: 0;
 }
-#service,#contact,#direction{
+#about,#service,#contact,#direction{
     width: auto;
     overflow: hidden;
 }
+
+.about-para{
+    color: black;
+    width: auto;
+    height:auto;
+    padding: 5%;
+    background-color:#FF7E44;
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
 .heading-service{
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 3rem;
     overflow: hidden;
 }
@@ -101,14 +116,14 @@ body{
 }
 h2{
     text-align: center;
-    font-family: system-ui;
-    text-decoration: underline;
+    font-family: 'El Messiri', sans-serif;
+    text-decoration: none;
     text-decoration-color: black;
 }
 
 .heading-direction{
     padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -353,13 +368,21 @@ footer{
 
     .main-div{
         /* width: 207vw; */
-        height: 26vh;
+        height: 30vh;
         width: 100%;
     }
 
     /* contacts section */
     .background-div{
         padding-left: 1.5vh;
+    }
+
+    .heading-1{
+        font-size: 7vw;
+    }
+
+    .about-para{
+        padding: 7%;
     }
 
     .banner{
