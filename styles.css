@@ -138,6 +138,9 @@ h2{
     padding-top: 4rem;
     overflow: hidden;
 }
+.images-gallery{
+    padding: 0 16%;
+}
 
 .map-div{
     background-color: #0766AD;
